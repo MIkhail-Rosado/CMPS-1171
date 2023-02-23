@@ -8,16 +8,14 @@ CREATE TABLE employees (
 );
 
 INSERT INTO employees (name, job, salary)
-VALUES ('mikhail','nasa_engineer',100000);
+VALUES ('mikhail','nasa_engineer',100000),
+('rosado','technician',50000),
+('mik','software_developer',500000),
+('john','chef',70000),
+('paul','boat_captain',30000),
 
-INSERT INTO employees (name, job, salary)
-VALUES ('rosado','technician',50000);
+SELECT *
+FROM employees;
 
-INSERT INTO employees (name, job, salary)
-VALUES ('mik','software_developer',500000);
-
-INSERT INTO employees (name, job, salary)
-VALUES ('john','chef',70000);
-
-INSERT INTO employees (name, job, salary)
-VALUES ('paul','boat_captain',30000);
+SELECT *
+FROM employees DESC;
